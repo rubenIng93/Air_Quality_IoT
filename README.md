@@ -1,4 +1,4 @@
-# Air_Quality_IoT
+# Air Quality IoT
 
 Air quality measurement project through:
 - Raspberry pi 4B;
@@ -6,5 +6,7 @@ Air quality measurement project through:
 
 Tested in the following conditions:
 - Standard;
-- Using a 'Levoit' air purifier exploiting its different speeds.
+- Using a \Levoit air purifier exploiting its different speeds.
+
+
 
