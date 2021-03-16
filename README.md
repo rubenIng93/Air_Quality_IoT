@@ -2,11 +2,12 @@
 
 Air quality measurement project through:
 - Raspberry pi 4B;
-- Sensor SDS011
+- Sensor SDS011;
+- Humidity/Temperature sensor.
 
 Tested in the following conditions:
 - Standard;
-- Using a /*Levoit*/ air purifier exploiting its different speeds.
+- Using a *Levoit Core 300* air purifier (equipped with HEPA filter) exploiting its different speeds.
 
 
 
