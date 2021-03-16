@@ -3,7 +3,9 @@
 Air quality measurement project through:
 - Raspberry pi 4B;
 - Sensor SDS011;
-- Humidity/Temperature sensor.
+- Humidity/Temperature sensor;
+- ThingSpeak channel;
+- MQTT protocol.
 
 Tested in the following conditions:
 - Standard;
