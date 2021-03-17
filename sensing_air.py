@@ -33,8 +33,10 @@ def save_log():
     with open("/home/pi/WORK_DIR/Air_purifier/air_quality_with_purifier.csv", "a") as log:
         pmt_2_5, pmt_10 = get_data()
         aqi_2_5, aqi_10 = conv_aqi(pmt_2_5, pmt_10)
+	temperature = dht_device.temperature
+        humidity = dht_device.humidity
         dt = datetime.now()
-        log.write("{},{},{},{},{}\n".format(dt, pmt_2_5, aqi_2_5, pmt_10, aqi_10))
+        log.write("{},{},{},{},{},{},{}\n".format(dt, pmt_2_5, aqi_2_5, pmt_10, aqi_10, temperature, humidity))
     log.close()
 
 sensor = SDS011('/dev/ttyUSB0', use_query_mode=True)
